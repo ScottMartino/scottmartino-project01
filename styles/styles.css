@@ -246,13 +246,17 @@ html {
 }
 
 body {
-  font-family: "Abril_Fatface";
+  font-family: "Montserrat";
   font-size: 1rem;
+}
+
+h1 {
+  font-family: "Abril_Fatface";
+  font-size: 4rem;
 }
 
 h2 {
   font-family: "Abril_Fatface";
-  font-size: 1rem;
 }
 
 .wrapper {
@@ -265,13 +269,25 @@ h2 {
   background-color: #345231;
   border: 2px #345231 solid;
 }
-.nav-bar .wrapper ul {
+.nav-bar .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.nav-bar .wrapper a {
+  color: #f6f6f6;
+  text-decoration: none;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.nav-bar .wrapper h2 {
+  color: #f6f6f6;
 }
 
 header {

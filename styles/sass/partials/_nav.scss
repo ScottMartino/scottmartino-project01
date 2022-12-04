@@ -3,8 +3,18 @@
 .nav-bar {
     background-color:$secondary;
     border: 2px $secondary solid;
-    .wrapper ul{
+    .wrapper {
         display: flex;
         justify-content: center;
+        align-items: center;
+        a {
+            color: $quinary;
+            text-decoration: none;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+        h2 {
+            color: $quinary;
+        }
     }
 }
