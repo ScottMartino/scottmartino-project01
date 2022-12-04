@@ -1,0 +1,10 @@
+@use "variables" as *;
+
+.nav-bar {
+    background-color:$secondary;
+    border: 2px $secondary solid;
+    .wrapper ul{
+        display: flex;
+        justify-content: center;
+    }
+}
