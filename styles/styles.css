@@ -250,15 +250,6 @@ body {
   font-size: 1rem;
 }
 
-h1 {
-  font-family: "Abril_Fatface";
-  font-size: 4rem;
-}
-
-h2 {
-  font-family: "Abril_Fatface";
-}
-
 .wrapper {
   max-width: 1260px;
   width: 90%;
@@ -290,9 +281,28 @@ h2 {
   color: #f6f6f6;
 }
 
-header {
+.index-header {
   background-color: #345231;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+h1 {
+  font-family: "Abril_Fatface";
+  font-size: 4rem;
+  color: white;
+}
+
+h2 {
+  font-family: "Abril_Fatface";
+}
+
+.blog-header {
+  background-image: url(./assets/blog-image-1.jpg);
+}
+
+.contact-header {
+  background-image: url("./assets/contact-image-1.jpg");
+  color: black;
 }
