@@ -2,4 +2,10 @@
     background-image: url("../assets/contact-image-1.jpg");
     height:400px;
     padding-top: 30px;
+    position: relative;
+}
+
+.contact-header h1{
+    position: absolute;
+    bottom:-68px;
 }

@@ -238,7 +238,7 @@ html {
 }
 @font-face {
   font-family: "Montserrat";
-  src: url("../fonts/Montserrat/Montserrat-Italic-VariableFont_wght.ttf");
+  src: url("../fonts/Montserrat/Montserrat-VariableFont_wght.ttf");
   font-weight: bold;
 }
 html {
@@ -249,6 +249,11 @@ body {
   font-family: "Montserrat";
   font-size: 1rem;
   letter-spacing: 1px;
+}
+
+button {
+  font-family: "Abril_Fatface";
+  font-size: 1rem;
 }
 
 .wrapper {
@@ -292,7 +297,8 @@ h1 {
   color: white;
 }
 
-h2 {
+h2,
+h3 {
   font-family: "Abril_Fatface";
 }
 
@@ -316,8 +322,8 @@ h2 {
 .header-image {
   position: absolute;
   width: 300px;
-  -webkit-box-shadow: 10px 10px 5px 0px rgb(255, 255, 255);
-          box-shadow: 10px 10px 5px 0px rgb(255, 255, 255);
+  -webkit-box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
+          box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
   top: 20%;
   left: 60%;
 }
@@ -344,6 +350,7 @@ h2 {
   background-color: #f6f6f6;
   height: 350px;
   padding-top: 50px;
+  padding-bottom: 50px;
 }
 .whos-willow h2,
 .whos-willow p {
@@ -352,13 +359,17 @@ h2 {
 
 .whos-willow button {
   background-color: #E4A436;
-  padding: 10px;
+  padding: 15px;
 }
 
 .favourite-things .wrapper {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+}
+
+.favourite-things {
+  position: relative;
 }
 
 .favourite-things button {
@@ -372,12 +383,15 @@ h2 {
 .favourite-image img {
   max-width: 100%;
   height: auto;
+  -webkit-box-shadow: -152px 14px 0px 0px #709b6b;
+          box-shadow: -152px 14px 0px 0px #709b6b;
 }
 
 .favourite-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-left: 40px;
+  padding-bottom: 20px;
 }
 
 .bucket-list .wrapper {
@@ -397,12 +411,15 @@ h2 {
 .bucket-image img {
   max-width: 100%;
   height: auto;
+  -webkit-box-shadow: 149px 9px 0px 0px #345231;
+          box-shadow: 149px 9px 0px 0px #345231;
 }
 
 .bucket-text {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-right: 40px;
+  padding-top: 20px;
 }
 
 .journey .wrapper {
@@ -422,8 +439,8 @@ h2 {
 .journey img {
   max-width: 100%;
   height: auto;
-  -webkit-box-shadow: 10px 10px 5px 0px rgb(112, 155, 107);
-          box-shadow: 10px 10px 5px 0px rgb(112, 155, 107);
+  -webkit-box-shadow: 10px 10px 0px 0px rgb(112, 155, 107);
+          box-shadow: 10px 10px 0px 0px rgb(112, 155, 107);
 }
 
 .journey-text {
@@ -434,6 +451,12 @@ h2 {
 
 .journey-bg {
   background-image: url("../assets/home-image-5.jpg");
+  height: 350px;
+}
+
+.gallery {
+  padding-top: 50px;
+  padding-bottom: 50px;
 }
 
 .gallery ul {
@@ -458,6 +481,10 @@ h2 {
       flex-wrap: wrap;
 }
 
+.bottom-nav {
+  background-color: #f6f6f6;
+}
+
 .nav-photos,
 .nav-about {
   -ms-flex-preferred-size: 50%;
@@ -471,17 +498,35 @@ h2 {
 }
 
 .bottom-nav img {
-  max-width: 5%;
+  width: 10%;
+  height: auto;
+  background-color: #E4A436;
+  padding: 5px;
+  border-radius: 50%;
 }
 
 .blog-header {
-  background-image: url(../assets/blog-image-1.jpg);
+  background-image: url("../assets/blog-image-1.jpg");
+  height: 400px;
+  padding-top: 30px;
+  position: relative;
+}
+
+.blog-header h1 {
+  position: absolute;
+  bottom: -68px;
 }
 
 .contact-header {
   background-image: url("../assets/contact-image-1.jpg");
   height: 400px;
   padding-top: 30px;
+  position: relative;
+}
+
+.contact-header h1 {
+  position: absolute;
+  bottom: -68px;
 }
 
 footer {

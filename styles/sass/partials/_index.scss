@@ -11,7 +11,8 @@ h1 {
     color: white;
 }
 
-h2 {
+h2,
+h3 {
     font-family: $heading-font;
 }
 
@@ -35,7 +36,7 @@ h2 {
 .header-image{
     position: absolute;
     width: 300px;
-    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255);
+    box-shadow: 10px 10px 0px 0px rgba(255, 255, 255);
     top: 20%;
     left: 60%;
 }
@@ -58,6 +59,7 @@ h2 {
     background-color: $quinary;
     height:350px;
     padding-top:50px;
+    padding-bottom: 50px;
     h2,
     p{
         text-align: center;
@@ -66,7 +68,7 @@ h2 {
 
 .whos-willow button{
     background-color: $quaternary;
-    padding: 10px;
+    padding: 15px;
 }
 
 // End of Whos Willow
@@ -76,6 +78,10 @@ h2 {
     display: flex;
 }
 
+.favourite-things{
+    position: relative;
+}
+
 .favourite-things button{
     background-color: $quaternary;
 }
@@ -83,14 +89,16 @@ h2 {
 .favourite-image{
     flex-basis: 50%;
     img{
-        max-width: 100%;
+        max-width:100%;
         height: auto;
+        box-shadow: -152px 14px 0px 0px $primary;
     }
 }
 
 .favourite-text{
     flex-basis: 50%;
     padding-left: 40px;
+    padding-bottom: 20px;
 }
 
 
@@ -110,12 +118,14 @@ h2 {
     img{
         max-width: 100%;
         height: auto;
+        box-shadow: 149px 9px 0px 0px $secondary;
     }
 }
 
 .bucket-text{
     flex-basis: 50%;
     padding-right: 40px;
+    padding-top: 20px;
 }
 
 
@@ -136,7 +146,7 @@ h2 {
     img{
         max-width: 100%;
         height: auto;
-        box-shadow: 10px 10px 5px 0px rgba(112, 155, 107,);
+        box-shadow: 10px 10px 0px 0px rgba(112, 155, 107,);
     }
 }
 
@@ -147,11 +157,15 @@ h2 {
 
 .journey-bg{
     background-image: url("../assets/home-image-5.jpg");
+    height:350px;
 }
 
 // End of Journey
 // Start of Gallery
-
+.gallery{
+    padding-top: 50px;
+    padding-bottom:50px;
+}
 .gallery ul{
     display: flex;
     justify-content: space-between;
@@ -170,6 +184,10 @@ h2 {
     flex-wrap: wrap;
 }
 
+.bottom-nav{
+     background-color: $quinary;
+}
+
 .nav-photos,
 .nav-about{
     flex-basis:50%;
@@ -181,5 +199,9 @@ h2 {
 }
 
 .bottom-nav img{
-    max-width: 5%;
+    width: 10%;
+    height: auto;
+    background-color: $quaternary;
+    padding:5px;
+    border-radius: 50%;
 }
