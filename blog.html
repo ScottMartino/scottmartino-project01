@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Willow</title>
 </head>
-<body>
+<body class="blog-body">
 <!-- Start of Nav -->
     <nav class="nav-bar">
         <div class="wrapper">
@@ -33,11 +33,11 @@
             <article class="blog-about">
                 <img src="./assets/blog-image-2.jpg" alt="Willow in the shade of a tree">
                 <h3>ABOUT WILLOW</h3>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Officiis atque voluptates quaerat veritatis. Ullam incidunt dolor nihil atque quis aliquid!</p>
-                <a href="#">Find out more</a>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta veritatis harum fugiat quia excepturi dolor optio quis officiis possimus error.<a href="#">Find out more</a></p>
+                
             </article>
             <article class="blog-recent">
-                <p>RECENT POSTS</p>
+                <h2>RECENT POSTS</h2>
                 <ul>
                     <li>Lorem ipsum dolor sit amet.</li>
                     <li>Lorem ipsum dolor sit amet.</li>
@@ -68,15 +68,19 @@
                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Veritatis quod ab dolores quam tempore. Ipsum nisi tempora neque, eos itaque ad dolores fuga assumenda quae placeat obcaecati corrupti? Eligendi, nisi magnam odit, consequuntur quibusdam optio atque unde ducimus recusandae officiis beatae libero totam eaque explicabo, tempora asperiores id dolorem ipsa!</p>
             </article>
             <form action="#">
-                <fieldset>
-                    <label for="name">Name</label>
-                    <input type="text" name="" id="">
-                    <label for="email">Email</label>
-                    <input type="text" name="" id="">
-                    <label for="comment">Comment</label>
-                    <input type="text">
-                    <button>Submit</button>
-                </fieldset>
+                <div>
+                     <input type="text" placeholder="Name" id="">
+                     <input type="text" placeholder="Email" id="">
+                </div>
+                <div>
+                    <input type="text" placeholder="Comment">
+                    <textarea id="freeform" name="freeform" rows="4" cols="50">
+                    Enter text here...
+                    </textarea>
+                </div>
+                <div>
+                    <button>Post Comment</button>
+                </div>
             </form>
         </div>
     </div>

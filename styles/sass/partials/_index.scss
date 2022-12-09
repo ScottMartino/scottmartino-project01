@@ -21,7 +21,7 @@ h3 {
     height: 500px;
     h1{
         position: absolute;
-        top:25%;
+        top:31%;
         left:25%;
     }
 }
@@ -59,16 +59,17 @@ h3 {
     background-color: $quinary;
     height:350px;
     padding-top:50px;
-    padding-bottom: 50px;
+    padding-bottom: 60px;
     h2,
     p{
         text-align: center;
     }
 }
 
-.whos-willow button{
-    background-color: $quaternary;
-    padding: 15px;
+.willow-button{
+    width: 20%;
+    align-self: center;
+    text-align: center;
 }
 
 // End of Whos Willow
@@ -80,14 +81,12 @@ h3 {
 
 .favourite-things{
     position: relative;
+    margin-top: 20px;
 }
 
-.favourite-things button{
-    background-color: $quaternary;
-}
 
 .favourite-image{
-    flex-basis: 50%;
+    width: 50%;
     img{
         max-width:100%;
         height: auto;
@@ -101,7 +100,6 @@ h3 {
     padding-bottom: 20px;
 }
 
-
 // End of Favourite Things
 // Start of Bucket List
 
@@ -109,14 +107,10 @@ h3 {
     display: flex;
 }
 
-.bucket-list button{
-    background-color: $quaternary;
-}
-
 .bucket-image{
     flex-basis: 50%;
     img{
-        max-width: 100%;
+        max-width: 85%;
         height: auto;
         box-shadow: 149px 9px 0px 0px $secondary;
     }

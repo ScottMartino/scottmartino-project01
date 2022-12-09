@@ -2,10 +2,23 @@
     background-image: url("../assets/blog-image-1.jpg");
     height: 400px;
     padding-top: 30px;
+    margin-bottom: 50px;
     position: relative;
+}
+
+.blog-body {
+    background-color:#f6f6f6;
 }
 
 .blog-header h1{
     position: absolute;
-    bottom: -68px;
+    bottom: -39px;
+}
+
+main .wrapper{
+    display: flex;
+}
+
+.blog-about{
+    margin:40px;
 }

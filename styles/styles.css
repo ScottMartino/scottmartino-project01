@@ -249,11 +249,13 @@ body {
   font-family: "Montserrat";
   font-size: 1rem;
   letter-spacing: 1px;
+  line-height: 32px;
 }
 
 button {
   font-family: "Abril_Fatface";
   font-size: 1rem;
+  background-color: #E4A436;
 }
 
 .wrapper {
@@ -308,7 +310,7 @@ h3 {
 }
 .index-header h1 {
   position: absolute;
-  top: 25%;
+  top: 31%;
   left: 25%;
 }
 
@@ -350,16 +352,18 @@ h3 {
   background-color: #f6f6f6;
   height: 350px;
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 60px;
 }
 .whos-willow h2,
 .whos-willow p {
   text-align: center;
 }
 
-.whos-willow button {
-  background-color: #E4A436;
-  padding: 15px;
+.willow-button {
+  width: 20%;
+  -ms-flex-item-align: center;
+      align-self: center;
+  text-align: center;
 }
 
 .favourite-things .wrapper {
@@ -370,15 +374,11 @@ h3 {
 
 .favourite-things {
   position: relative;
-}
-
-.favourite-things button {
-  background-color: #E4A436;
+  margin-top: 20px;
 }
 
 .favourite-image {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 50%;
 }
 .favourite-image img {
   max-width: 100%;
@@ -400,16 +400,12 @@ h3 {
   display: flex;
 }
 
-.bucket-list button {
-  background-color: #E4A436;
-}
-
 .bucket-image {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
 }
 .bucket-image img {
-  max-width: 100%;
+  max-width: 85%;
   height: auto;
   -webkit-box-shadow: 149px 9px 0px 0px #345231;
           box-shadow: 149px 9px 0px 0px #345231;
@@ -509,12 +505,27 @@ h3 {
   background-image: url("../assets/blog-image-1.jpg");
   height: 400px;
   padding-top: 30px;
+  margin-bottom: 50px;
   position: relative;
+}
+
+.blog-body {
+  background-color: #f6f6f6;
 }
 
 .blog-header h1 {
   position: absolute;
-  bottom: -68px;
+  bottom: -39px;
+}
+
+main .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.blog-about {
+  margin: 40px;
 }
 
 .contact-header {
