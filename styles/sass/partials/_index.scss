@@ -2,7 +2,6 @@
 
 .index-header {
     background-color: $secondary;
-    display: flex;
     
 }
 
@@ -16,4 +15,171 @@ h2 {
     font-family: $heading-font;
 }
 
+.index-header{
+    position: relative;
+    height: 500px;
+    h1{
+        position: absolute;
+        top:25%;
+        left:25%;
+    }
+}
 
+.header-png img{
+    position: absolute;
+    width: 100px;
+    top: 30%;
+    left: 21%;
+}
+
+.header-image{
+    position: absolute;
+    width: 300px;
+    box-shadow: 10px 10px 5px 0px rgba(255, 255, 255);
+    top: 20%;
+    left: 60%;
+}
+
+.header-image img{
+    max-width: 100%;
+    max-height: auto;
+}
+
+// End of Header
+// Start of Whos Willow
+
+.whos-willow .wrapper{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.whos-willow{
+    background-color: $quinary;
+    height:350px;
+    padding-top:50px;
+    h2,
+    p{
+        text-align: center;
+    }
+}
+
+.whos-willow button{
+    background-color: $quaternary;
+    padding: 10px;
+}
+
+// End of Whos Willow
+// Start of Favourite Things
+
+.favourite-things .wrapper{
+    display: flex;
+}
+
+.favourite-things button{
+    background-color: $quaternary;
+}
+
+.favourite-image{
+    flex-basis: 50%;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.favourite-text{
+    flex-basis: 50%;
+    padding-left: 40px;
+}
+
+
+// End of Favourite Things
+// Start of Bucket List
+
+.bucket-list .wrapper{
+    display: flex;
+}
+
+.bucket-list button{
+    background-color: $quaternary;
+}
+
+.bucket-image{
+    flex-basis: 50%;
+    img{
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+.bucket-text{
+    flex-basis: 50%;
+    padding-right: 40px;
+}
+
+
+// End of Bucket List
+// Start of Journey
+
+.journey .wrapper{
+    display: flex;
+}
+
+.journey{
+    background-color: $quinary;
+    padding-top:30px;
+    padding-bottom:30px;
+    button{
+        background-color: $quaternary;
+    }
+    img{
+        max-width: 100%;
+        height: auto;
+        box-shadow: 10px 10px 5px 0px rgba(112, 155, 107,);
+    }
+}
+
+.journey-text{
+    padding-left:80px;
+    flex-basis: 60%;
+}
+
+.journey-bg{
+    background-image: url("../assets/home-image-5.jpg");
+}
+
+// End of Journey
+// Start of Gallery
+
+.gallery ul{
+    display: flex;
+    justify-content: space-between;
+    list-style:none;
+}
+
+.gallery img{
+    max-width: 90%;
+}
+
+// End of Gallery
+// Start of Bottom Nav
+
+.bottom-nav .wrapper{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-photos,
+.nav-about{
+    flex-basis:50%;
+}
+
+.nav-blog,
+.nav-contact{
+    flex-basis: 50%;
+}
+
+.bottom-nav img{
+    max-width: 5%;
+}
