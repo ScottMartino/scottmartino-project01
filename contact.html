@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./styles/styles.css">
     <title>Willow</title>
 </head>
-<body>
+<body class="contact-body">
 <!-- Start of Nav -->
     <nav class="nav-bar">
         <div class="wrapper">
@@ -29,27 +29,45 @@
 <!-- Start of main -->
     <main>
         <div class="wrapper">
-            <div class="address">
-                <a href="#">FaceBook</a>
-                <a href="#">Twitter</a>
-                <a href="#">LinkedIn</a>
-                <a href="#">Instagram</a><br>
-                <p>info@email.com<br>
-                123-456-789<br>
-                123 Queen St. West, Unit 10<br>
-                Toronto, Ontario<br>
-                M5V2D5<br>
-             </div>
-            <div class="contact-form">
-                <form action="#">
-                    <fieldset>
-                        <input type="text" id="name">
-                        <input type="text" id="email">
-                        <input type="text" id="comments">
-                        <button>Submit</button>
-                    </fieldset>
-                </form>
+            
+            <div class="contact-container">
+            
+                <article class="address-box">
+                    <div class="links-box">
+                        <a href="#">FaceBook</a>
+                        <a href="#">Twitter</a>
+                        <a href="#">LinkedIn</a>
+                        <a href="#">Instagram</a><br>
+                    </div>
+                    <div class="info-box">
+                        <p>info@email.com<br>
+                        123-456-789<br>
+                        123 Queen St. West, Unit 10<br>
+                        Toronto, Ontario<br>
+                        M5V2D5<br>
+                    </div>
+                </article>
+                
+                
+                
+                
+                <div class="contact-form">
+                    <form action="#" class="comment-form">
+                        <div class="top-form">
+                            <input type="text" placeholder="Name" class="input-name">
+                            <input type="text" placeholder="Email" class="input-email">
+                        </div>
+                        <div class="bottom-form">
+                            <input type="text" placeholder="Comment" class="input-comment">
+                        </div>
+                        <div class="button-box">
+                            <button class="form-button">Post Comment</button>
+                        </div>
+                    </form>
+                </div>
+            
             </div>
+        
         </div><!-- End of Wrapper -->
     </main>
 <!-- End of Main -->
