@@ -680,6 +680,25 @@ main .wrapper {
   background-color: white;
 }
 
+.facebook-link {
+  width: 5%;
+}
+
+.twitter-link,
+.linkedin-link,
+.instagram-link {
+  width: 7%;
+}
+
+.links-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
 .contact-container {
   display: -webkit-box;
   display: -ms-flexbox;

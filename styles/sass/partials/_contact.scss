@@ -21,7 +21,20 @@
     background-color: white;
 }
 
+.facebook-link{
+    width:5%;
+}
 
+.twitter-link,
+.linkedin-link,
+.instagram-link{
+    width:7%;
+}
+
+.links-box{
+    display: flex;
+    justify-content: space-evenly;
+}
 
 .contact-container{
     display: flex;
