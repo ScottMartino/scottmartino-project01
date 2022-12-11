@@ -23,7 +23,27 @@
     }
 }
 
-
 @media (max-width: 320px){
-    
+    .nav-bar .wrapper{
+        flex-direction: column;
+    }
+    .header-image{
+        width: 35%;
+        top:5%;
+        left:35%;
+    }
+    .index-header h1{
+        top: 40%;
+        left:25%;
+        font-size: 2rem;
+    }
+    .header-icon img {
+        position: absolute;
+        width: 15%;
+        top: 47%;
+        left: 16%;
+    }
+    .whos-willow{
+        height:800px;
+    }   
 }
