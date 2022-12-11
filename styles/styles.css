@@ -314,7 +314,7 @@ h3 {
   left: 25%;
 }
 
-.header-png img {
+.header-icon img {
   position: absolute;
   width: 100px;
   top: 30%;
@@ -323,7 +323,7 @@ h3 {
 
 .header-image {
   position: absolute;
-  width: 300px;
+  width: 20%;
   -webkit-box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
           box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
   top: 20%;
@@ -332,7 +332,6 @@ h3 {
 
 .header-image img {
   max-width: 100%;
-  max-height: auto;
 }
 
 .whos-willow .wrapper {
@@ -512,6 +511,16 @@ h3 {
   background-color: #f6f6f6;
 }
 
+.nav-icons {
+  width: 5%;
+}
+
+.nav-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .nav-photos,
 .nav-about {
   -ms-flex-preferred-size: 50%;
@@ -527,10 +536,14 @@ h3 {
 }
 
 .bottom-nav img {
-  width: 10%;
-  height: auto;
+  margin-top: 20px;
   background-color: #E4A436;
+  padding: 5px;
   border-radius: 50%;
+}
+
+.bottom-nav h3 {
+  margin-left: 20px;
 }
 
 .blog-header {

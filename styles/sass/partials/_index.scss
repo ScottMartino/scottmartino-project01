@@ -1,5 +1,6 @@
 @use "variables" as *;
 
+// Start of Header
 .index-header {
     background-color: $secondary;
 }
@@ -25,7 +26,7 @@ h3 {
     }
 }
 
-.header-png img{
+.header-icon img{
     position: absolute;
     width: 100px;
     top: 30%;
@@ -34,7 +35,7 @@ h3 {
 
 .header-image{
     position: absolute;
-    width: 300px;
+    width: 20%;
     box-shadow: 10px 10px 0px 0px rgba(255, 255, 255);
     top: 20%;
     left: 60%;
@@ -42,9 +43,8 @@ h3 {
 
 .header-image img{
     max-width: 100%;
-    max-height: auto;
 }
-// End of Header
+
 // Start of Whos Willow
 .whos-willow .wrapper{
     display: flex;
@@ -72,7 +72,7 @@ h3 {
     background-color:$quaternary;
     font-family: $heading-font;
 }
-// End of Whos Willow
+
 // Start of Favourite Things
 .favourite-things .wrapper{
     display: flex;
@@ -107,7 +107,7 @@ h3 {
     background-color: $quaternary;
     padding: 5px;
 }
-// End of Favourite Things
+
 // Start of Bucket List
 .bucket-list .wrapper{
     display: flex;
@@ -136,7 +136,7 @@ h3 {
     background-color: $quaternary;
     padding: 5px;
 }
-// End of Bucket List
+
 // Start of Journey
 .journey .wrapper{
     display: flex;
@@ -175,7 +175,7 @@ h3 {
     background-image: url("../assets/home-image-5.jpg");
     height:350px;
 }
-// End of Journey
+
 // Start of Gallery
 .gallery{
     padding-top: 50px;
@@ -190,7 +190,7 @@ h3 {
 .gallery img{
     max-width: 90%;
 }
-// End of Gallery
+
 // Start of Bottom Nav
 .bottom-nav .wrapper{
     display: flex;
@@ -199,6 +199,14 @@ h3 {
 
 .bottom-nav{
     background-color: $quinary;
+}
+
+.nav-icons{
+    width:5%;
+}
+
+.nav-title{
+    display: flex;
 }
 
 .nav-photos,
@@ -214,8 +222,12 @@ h3 {
 }
 
 .bottom-nav img{
-    width: 10%;
-    height: auto;
+    margin-top: 20px;
     background-color: $quaternary;
+    padding: 5px;
     border-radius: 50%;
+}
+
+.bottom-nav h3{
+    margin-left:20px;
 }

@@ -1,5 +1,6 @@
 @use "variables" as *;
 
+// Start of Header
 .blog-header{
     background-image: url("../assets/blog-image-1.jpg");
     height: 400px;
@@ -17,6 +18,7 @@
     bottom: -39px;
 }
 
+// Start of Main
 main .wrapper{
     display: flex;
 }
