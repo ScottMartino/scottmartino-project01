@@ -560,6 +560,105 @@ main .wrapper {
   margin: 40px;
 }
 
+.box1-about {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+}
+
+.box2-recent {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.blog-box1 {
+  background-color: white;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-right: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-bottom: 5px solid #709b6b;
+}
+
+.blog-box2 {
+  border-bottom: 5px solid #709b6b;
+}
+
+.blog-post2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+}
+
+.blog-post3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: white;
+  padding: 20px;
+}
+
+.blog-image3 {
+  padding: 20px;
+}
+
+.blog-image4 {
+  padding: 20px;
+}
+
+.comment-form input {
+  border: 0;
+  margin-top: 30px;
+}
+
+.top-form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.input-name,
+.input-email {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
+}
+
+.input-name {
+  margin-right: 15px;
+}
+
+.input-comment {
+  width: 100%;
+  padding-top: 20px;
+  padding-bottom: 200px;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+.button-box {
+  width: 100%;
+}
+
+.form-button {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border: none;
+  margin-bottom: 75px;
+}
+
 .contact-header {
   background-image: url("../assets/contact-image-1.jpg");
   height: 400px;
