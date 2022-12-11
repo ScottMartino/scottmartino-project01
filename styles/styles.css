@@ -258,6 +258,12 @@ button {
   background-color: #E4A436;
 }
 
+h1 {
+  font-size: 4rem;
+  line-height: 92px;
+  letter-spacing: 1px;
+}
+
 .wrapper {
   max-width: 1260px;
   width: 90%;
@@ -310,7 +316,7 @@ h3 {
 }
 .index-header h1 {
   position: absolute;
-  top: 31%;
+  top: 25%;
   left: 25%;
 }
 
@@ -510,6 +516,10 @@ h3 {
 .bottom-nav {
   background-color: #f6f6f6;
 }
+.bottom-nav a {
+  color: black;
+  text-decoration: none;
+}
 
 .nav-icons {
   width: 5%;
@@ -560,7 +570,7 @@ h3 {
 
 .blog-header h1 {
   position: absolute;
-  bottom: -39px;
+  bottom: -69px;
 }
 
 main .wrapper {
@@ -686,7 +696,7 @@ main .wrapper {
 
 .contact-header h1 {
   position: absolute;
-  bottom: -41px;
+  bottom: -69px;
 }
 
 .address-box {
@@ -781,4 +791,28 @@ footer {
   padding-bottom: 2px;
   color: white;
   text-align: center;
+}
+
+@media (max-width: 938px) {
+  .header-image {
+    position: absolute;
+    width: 20%;
+    -webkit-box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
+            box-shadow: 10px 10px 0px 0px rgb(255, 255, 255);
+    top: 20%;
+    left: 65%;
+  }
+  .header-image .index-header {
+    position: relative;
+    height: 300px;
+  }
+  .header-image .index-header h1 {
+    position: absolute;
+    top: 31%;
+    left: 25%;
+  }
+  .whos-willow {
+    height: 400px;
+    margin-bottom: 50px;
+  }
 }

@@ -21,7 +21,7 @@ h3 {
     height: 500px;
     h1{
         position: absolute;
-        top:31%;
+        top:25%;
         left:25%;
     }
 }
@@ -199,6 +199,10 @@ h3 {
 
 .bottom-nav{
     background-color: $quinary;
+    a{
+        color: black;
+        text-decoration: none;
+    }
 }
 
 .nav-icons{

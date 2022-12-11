@@ -1,0 +1,29 @@
+@use "variables" as *;
+
+@media (max-width: 938px){
+    .header-image{
+        position: absolute;
+        width: 20%;
+        box-shadow: 10px 10px 0px 0px rgba(255, 255, 255);
+        top: 20%;
+        left: 65%;  
+    .index-header {
+            position: relative;
+            height: 300px;
+            h1 {
+                position: absolute;
+                top: 31%;
+                left: 25%;
+            }
+        }
+    }   
+    .whos-willow{
+        height: 400px;
+        margin-bottom: 50px;
+    }
+}
+
+
+@media (max-width: 320px){
+    
+}
