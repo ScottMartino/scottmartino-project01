@@ -352,7 +352,7 @@ h3 {
   background-color: #f6f6f6;
   height: 350px;
   padding-top: 50px;
-  padding-bottom: 60px;
+  padding-bottom: 50px;
 }
 .whos-willow h2,
 .whos-willow p {
@@ -364,6 +364,10 @@ h3 {
   -ms-flex-item-align: center;
       align-self: center;
   text-align: center;
+  text-decoration: none;
+  color: black;
+  background-color: #E4A436;
+  font-family: "Abril_Fatface";
 }
 
 .favourite-things .wrapper {
@@ -373,12 +377,14 @@ h3 {
 }
 
 .favourite-things {
+  -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
   position: relative;
   margin-top: 20px;
 }
 
 .favourite-image {
-  width: 50%;
+  width: 45%;
 }
 .favourite-image img {
   max-width: 100%;
@@ -388,10 +394,19 @@ h3 {
 }
 
 .favourite-text {
+  width: 45%;
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
   padding-left: 40px;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
+}
+
+.favourite-button {
+  text-decoration: none;
+  font-family: "Abril_Fatface";
+  color: black;
+  background-color: #E4A436;
+  padding: 5px;
 }
 
 .bucket-list .wrapper {
@@ -401,21 +416,28 @@ h3 {
 }
 
 .bucket-image {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 45%;
 }
 .bucket-image img {
-  max-width: 85%;
+  max-width: 100%;
   height: auto;
   -webkit-box-shadow: 149px 9px 0px 0px #345231;
           box-shadow: 149px 9px 0px 0px #345231;
 }
 
 .bucket-text {
-  -ms-flex-preferred-size: 50%;
-      flex-basis: 50%;
+  width: 55%;
   padding-right: 40px;
   padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.bucket-button {
+  text-decoration: none;
+  font-family: "Abril_Fatface";
+  color: black;
+  background-color: #E4A436;
+  padding: 5px;
 }
 
 .journey .wrapper {
@@ -424,13 +446,15 @@ h3 {
   display: flex;
 }
 
+.journey-image {
+  width: 40%;
+  padding-top: 20px;
+}
+
 .journey {
   background-color: #f6f6f6;
   padding-top: 30px;
   padding-bottom: 30px;
-}
-.journey button {
-  background-color: #E4A436;
 }
 .journey img {
   max-width: 100%;
@@ -439,10 +463,17 @@ h3 {
           box-shadow: 10px 10px 0px 0px rgb(112, 155, 107);
 }
 
+.journey-button {
+  text-decoration: none;
+  font-family: "Abril_Fatface";
+  color: black;
+  background-color: #E4A436;
+  padding: 5px;
+}
+
 .journey-text {
-  padding-left: 80px;
-  -ms-flex-preferred-size: 60%;
-      flex-basis: 60%;
+  padding-left: 15px;
+  width: 60%;
 }
 
 .journey-bg {
@@ -485,19 +516,20 @@ h3 {
 .nav-about {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+  padding: 20px;
 }
 
 .nav-blog,
 .nav-contact {
   -ms-flex-preferred-size: 50%;
       flex-basis: 50%;
+  padding: 20px;
 }
 
 .bottom-nav img {
   width: 10%;
   height: auto;
   background-color: #E4A436;
-  padding: 5px;
   border-radius: 50%;
 }
 
